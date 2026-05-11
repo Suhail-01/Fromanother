@@ -1,0 +1,1 @@
+import { vertexShader, fragmentShader } from "./shaders";
