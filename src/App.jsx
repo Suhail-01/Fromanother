@@ -4,6 +4,7 @@ import AboutSection from "./components/AboutSection/AboutSection";
 import ServicesSection from "./components/ServicesSection/ServicesSection";
 import SliderSection from "./components/SliderSection/SliderSection";
 import TeamSection from "./components/TeamSection/TeamSection";
+import VerticalSliderSection from "./components/VerticalSliderSection/VerticalSliderSection";
 import "./App.css";
 
 export default function App() {
@@ -26,6 +27,7 @@ export default function App() {
       <ServicesSection />
       <SliderSection />
       <TeamSection />
+      <VerticalSliderSection />
     </>
   );
 }
