@@ -264,9 +264,9 @@ const VerticalSliderSection = () => {
       </section>
 
       {/* OUTRO */}
-      <section className="outro">
+      {/* <section className="outro">
         <p>Scroll complete</p>
-      </section>
+      </section> */}
     </section>
   );
 };
