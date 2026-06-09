@@ -1,36 +1,18 @@
-import Navbar from "./components/Navbar/Navbar";
-import HomeHero from "./components/HomeHero/HomeHero";
-import AboutSection from "./components/AboutSection/AboutSection";
-import ServicesSection from "./components/ServicesSection/ServicesSection";
+import React from 'react';
+import Home from './Home';
 import SliderSection from "./components/SliderSection/SliderSection";
-import TeamSection from "./components/TeamSection/TeamSection";
 import VerticalSliderSection from "./components/VerticalSliderSection/VerticalSliderSection";
+import TeamSection from "./components/TeamSection/TeamSection";
 import CircularTextSection from "./components/CircularTextSection/CircularTextSection";
-
-import "./App.css";
-
 export default function App() {
   return (
     <>
-      <div className="site-video-bg">
-        <video
-          src="/src/assets/videos/video_1778480088758.mp4"
-          autoPlay
-          muted
-          loop
-          playsInline
-        />
-      </div>
-
-      <div className="site-color-overlay" />
-
-      <HomeHero />
-      <AboutSection />
-      <ServicesSection />
+      <Home />
       <SliderSection />
       <TeamSection />
       <VerticalSliderSection />
       <CircularTextSection />
     </>
+
   );
 }
